@@ -1,0 +1,42 @@
+.icxr-university {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: row;
+  --icxr-border-color: white;
+}
+
+.icxr-university-marker {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  border-radius: 100%;
+  background-image: url("https://images.squarespace-cdn.com/content/641900df11d0554b2253d8b7/252bbac8-8dbe-4d1b-bf3c-41dae67d23fb/apple-touch-icon.png");
+  background-size: 30px;
+  border: solid var(--icxr-border-color);
+
+  justify-content: center;
+  align-items: center;
+}
+
+.icxr-university-details-container {
+  position: absolute;
+  left: 80%;
+  width:300px;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  z-index: -1;
+}
+
+.icxr-university-details {
+    background-color: var(--icxr-border-color);
+    color:black;
+    padding-left: 12px;
+    padding-right: 8px;
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+    font-size: 0.75em;
+}
+
